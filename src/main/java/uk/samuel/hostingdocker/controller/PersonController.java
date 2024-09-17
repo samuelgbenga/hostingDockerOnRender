@@ -40,8 +40,7 @@ public class PersonController {
     @GetMapping("/testing")
     public ResponseEntity<String> testing(){
 
-        return ResponseEntity.ok("Samuel Joseph is A professor "+ verificationUrl);
-
+        return ResponseEntity.ok("Samuel Joseph is A professor (it has been affected) "+ verificationUrl);
     }
 
 
